@@ -1,18 +1,17 @@
-﻿
-.fundo {
-	background: url("img-cabecalho.jpg");
+﻿.fundo {
+	background: url("../img/img-cabecalho.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
 .cabecalho {
-	background-color: rgba(32,16,39, 0.9);
+	background-color: rgba(33,17,40, 0.9);
 	width: 100%;
 	height: 95vh;
 }
 
 .img-pessoal {
-	width: 200px;
-	height: 200px;
+	width: 230px;
+	height: 230px;
 }
 
 h1 {
@@ -20,7 +19,11 @@ h1 {
 	font-family: 'Kaushan Script', cursive;
 	rotate(45deg);
 }
-h2 {
+.fontJogo {
 	font-family: 'Space Mono', monospace;
 	font-size: 1.1em;
+}
+.skil {
+	font-family: 'Space Mono', monospace;
+	font-size: 1.5em;
 }
