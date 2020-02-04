@@ -1,4 +1,12 @@
-﻿.fundo {
+@media (max-width: 450px){
+	.fundo {
+		background: url("img-cabecalho-pq.jpg");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
+}
+
+.fundo {
 	background: url("img-cabecalho.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
