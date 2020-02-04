@@ -1,6 +1,11 @@
 ﻿
+.fundo {
+	background: url("../img/img-cabecalho.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
 .cabecalho {
-	background-color:#281A4D;
+	background-color: rgba(32,16,39, 0.9);
 	width: 100%;
 	height: 95vh;
 }
