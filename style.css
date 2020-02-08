@@ -23,18 +23,18 @@
 .img-pessoal {
 	width: 230px;
 	height: 230px;
-	animation: bounceInDown 2s;
+	animation: bounceInDown 3s;
 }
 
 h1 {
 	font-size: 1.9em;
 	font-family: 'Kaushan Script', cursive;
-	animation: bounceInLeft 2s;
+	animation: bounceInLeft 3s;
 }
 .fontJogo {
 	font-family: 'Space Mono', monospace;
 	font-size: 1.1em;
-	animation: bounceInRight 2s;
+	animation: bounceInRight 3s;
 }
 .skil {
 	font-family: 'Space Mono', monospace;
@@ -52,7 +52,7 @@ h1 {
 	height: 15px;
 }
 .nav-link {
-	animation: bounceInUp 2s;
+	animation: bounceInUp 3s;
 }
 .listaLinks {
 	background-color: rgba(14, 12, 37, 0.9);
