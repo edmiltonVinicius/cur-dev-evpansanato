@@ -9,7 +9,7 @@
 	font-family: 'Space Mono', monospace;
 }
 .fundo {
-	background: url("img-cabecalho.jpg");
+	background: url("../img/img-cabecalho.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	animation: bounceInUp 1s;
@@ -38,6 +38,10 @@ h1 {
 }
 .skil {
 	font-family: 'Space Mono', monospace;
+	font-size: 1.8em;
+}
+.sobreMim {
+	font-family: 'Space Mono', monospace;
 	font-size: 1.5em;
 }
 .dados {
@@ -49,4 +53,8 @@ h1 {
 }
 .nav-link {
 	animation: bounceInUp 2s;
+}
+.listaLinks {
+	background-color: rgba(14, 12, 37, 0.9);
+	font-size: 1.3em;
 }
