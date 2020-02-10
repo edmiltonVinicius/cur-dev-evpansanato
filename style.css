@@ -9,7 +9,7 @@
 	font-family: 'Space Mono', monospace;
 }
 .fundo {
-	background: url("img-cabecalho.jpg");
+	background: url("../img/img-cabecalho.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	animation: bounceInUp 1s;
@@ -23,18 +23,18 @@
 .img-pessoal {
 	width: 230px;
 	height: 230px;
-	animation: bounceInDown 3s;
+	animation: bounceInDown 2s;
 }
 
 h1 {
 	font-size: 1.9em;
 	font-family: 'Kaushan Script', cursive;
-	animation: bounceInLeft 3s;
+	animation: bounceInLeft 2s;
 }
 .fontJogo {
 	font-family: 'Space Mono', monospace;
 	font-size: 1.1em;
-	animation: bounceInRight 3s;
+	animation: bounceInRight 2s;
 }
 .skil {
 	font-family: 'Space Mono', monospace;
@@ -48,11 +48,11 @@ h1 {
 	font-family: 'Space Mono', monospace;
 	font-size: 1em;
 }
-.barraTecs {
-	height: 15px;
+.barra {
+	height: 12px;
 }
 .nav-link {
-	animation: bounceInUp 3s;
+	animation: bounceInUp 2s;
 }
 .listaLinks {
 	background-color: rgba(14, 12, 37, 0.9);
