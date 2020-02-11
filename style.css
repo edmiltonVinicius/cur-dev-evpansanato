@@ -9,7 +9,7 @@
 	font-family: 'Space Mono', monospace;
 }
 .fundo {
-	background: url("img-cabecalho.jpg");
+	background: url("../img/img-cabecalho.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	animation: bounceInUp 1s;
@@ -49,7 +49,7 @@ h1 {
 	font-size: 1em;
 }
 .barra {
-	height: 12px;
+	height: 10px;
 }
 .nav-link {
 	animation: bounceInUp 2s;
@@ -57,4 +57,13 @@ h1 {
 .listaLinks {
 	background-color: rgba(14, 12, 37, 0.9);
 	font-size: 1.3em;
+}
+.iSass {
+	background-color: #C14690;
+}
+.iBoot {
+	background-color: #773AAD;
+}
+.iMongo {
+	background-color: #308F43;
 }
