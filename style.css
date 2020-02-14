@@ -9,7 +9,7 @@
 	font-family: 'Space Mono', monospace;
 }
 .fundo {
-	background: url("img-cabecalho.jpg");
+	background: url("../img/img-cabecalho.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	animation: bounceInUp 2s;
@@ -55,7 +55,7 @@ h1 {
 	animation: bounceInUp 3s;
 }
 .listaLinks {
-	background-color: rgba(14, 12, 37, 0.9);
+	background-color: rgba(32, 74, 95, 0.9);
 	font-size: 1.3em;
 }
 .iSass {
@@ -66,4 +66,13 @@ h1 {
 }
 .iMongo {
 	background-color: #308F43;
+}
+
+.fundo2 {
+	background: url("../img/mascara.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.trabalho {
+	background-color: rgba(14, 12, 37, 0.9);
 }
