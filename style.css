@@ -9,7 +9,7 @@
 	font-family: 'Space Mono', monospace;
 }
 .fundo {
-	background: url("img-cabecalho.jpg");
+	background: url("../img/img-cabecalho.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	animation: bounceInUp 2s;
@@ -65,21 +65,20 @@ h1 {
 	background-color: #773AAD;
 }
 .iMongo {
-	background-color: #308F43;
+	background-color: #308F43; 
 }
 
 .fundo2 {
-	background: url("mascara.jpg");
+	background: url("../img/mascara.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
 .trabalho {
 	background-color: rgba(14, 12, 37, 0.9);
 }
-
 .projetos {
-	height: 350px;
-	background: url("projeto-cafeteria.png");
+	height: 300px;
+	background: url("../img/projeto-cafeteria.png");
 	background-size: 100% 100%;
 	background-repeat: no-repeat;	
 	
@@ -92,7 +91,6 @@ a {
 .desc {
 	display: none;
 	background-color: rgba(255, 255, 255, 0.9);
-	font-family: 'Space Mono', monospace;
 	font-size: 1em;
 	
 }
@@ -101,4 +99,21 @@ a {
 }
 .projetos:hover .desc {
 	display: block;
+}
+
+.proj {
+	height: 300px;
+}
+
+.aniPraBaixo {
+	animation: bounceInDown 1s;
+}
+.aniPraCima {
+	animation: bounceInUp 1s;
+}
+.aniPraDir {
+	animation: bounceInLeft 1s;
+}
+.aniPraEsq {
+	animation: bounceInRight 1s;
 }
