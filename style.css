@@ -9,7 +9,7 @@
 	font-family: 'Space Mono', monospace;
 }
 .fundo {
-	background: url("img-cabecalho.jpg");
+	background: url("../img/img-cabecalho.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	animation: bounceInUp 2s;
@@ -69,42 +69,35 @@ h1 {
 }
 
 .fundo2 {
-	background: url("mascara.jpg");
+	background: url("../img/mascara.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
 .trabalho {
 	background-color: rgba(14, 12, 37, 0.9);
 }
-.projetos {
+
+.projetoCaf {
 	height: 300px;
-	background: url("projeto-cafeteria.png");
+	background: url("../img/projeto-cafeteria.png");
 	background-size: 100% 100%;
 	background-repeat: no-repeat;	
-	
+	opacity: 0.7;
 }
-a {
-	width: 100%;
-	height: 100%;
-	text-decoration: none !important;
+.projetoCaf:hover {
+	background: none;
 }
-.desc {
-	display: none;
-	background-color: rgba(255, 255, 255, 0.9);
-	font-size: 1em;
-	
-}
-.projetos:hover {
-	animation: fadeIn 1s;
-}
-.projetos:hover .desc {
+.projetoCaf:hover .caf {
 	display: block;
+}
+
+.caf {
+	display: none;
 }
 
 .proj {
 	height: 300px;
 }
-
 .aniPraBaixo {
 	animation: bounceInDown 1s;
 }
