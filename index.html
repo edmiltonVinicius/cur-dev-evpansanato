@@ -23,19 +23,16 @@
 	<script>
 		
 		window.addEventListener('load', (event) => {
-			setTimeout(() => {
-				let animacao = document.querySelector('.animacao')
-				animacao.classList.remove('d-flex')
-				animacao.classList.add('d-none')
+			setTimeout( function(){
+				let d = document.querySelector('.animacao').style.display="none"
 				document.querySelector('.main').style.display="block"
 			}, 3000)
 		})
-
 	</script>
 </head>
 
 <body>	
-	<div class="animacao bg-dark d-flex justify-content-center align-items-center">
+	<div class="animacao bg-dark text-center pt-5">
 		<img src="img/animacao.gif"/>
 		<p class="text-white">Depois de ver, me contrate :)</p>
 	</div>
